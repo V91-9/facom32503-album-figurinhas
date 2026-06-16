@@ -1,0 +1,77 @@
+{
+  "competition": {
+    "name": "FIFA World Cup 2026",
+    "edition": "23",
+    "trophyImage": "https://url-para-imagem-do-trofeu.com/trofeu.png",
+    "teams": [
+      {
+        "name": "Brasil",
+        "victories": 5,
+        "description": "A seleção mais vitoriosa da história da Copa do Mundo, conhecida por seu futebol arte e jogadores lendários. Com 5 títulos mundiais, o Brasil é sinônimo de excelência no futebol.",
+        "badge": "https://url-para-escudo.com/brasil.png",
+        "colors": [
+          "#FFD700",
+          "#009C3B"
+        ],
+        "players": [
+          {
+            "name": "Vinicius Jr",
+            "position": "Atacante",
+            "number": 7,
+            "photo": "https://url-para-foto.com/viniciusjr.png"
+          },
+          {
+            "name": "Rodrygo",
+            "position": "Atacante",
+            "number": 10,
+            "photo": "https://url-para-foto.com/rodrygo.png"
+          },
+          {
+            "name": "Casemiro",
+            "position": "Meio-campo",
+            "number": 5,
+            "photo": "https://url-para-foto.com/casemiro.png"
+          },
+          {
+            "name": "Alisson",
+            "position": "Goleiro",
+            "number": 1,
+            "photo": "https://url-para-foto.com/alisson.png"
+          },
+          {
+            "name": "Marquinhos",
+            "position": "Zagueiro",
+            "number": 4,
+            "photo": "https://url-para-foto.com/marquinhos.png"
+          }
+        ],
+        "coach": {
+          "name": "Carlo Ancelotti",
+          "photo": "https://url-para-foto.com/ancelotti.png"
+        }
+      },
+      {
+        "name": "Argentina",
+        "victories": 3,
+        "description": "Atual campeã mundial, a seleção argentina é conhecida por sua raça, técnica e paixão inigualável pelo esporte.",
+        "badge": "https://url-para-escudo.com/argentina.png",
+        "colors": [
+          "#75AADB",
+          "#FFFFFF"
+        ],
+        "players": [
+          {
+            "name": "Lionel Messi",
+            "position": "Atacante",
+            "number": 10,
+            "photo": "https://url-para-foto.com/messi.png"
+          }
+        ],
+        "coach": {
+          "name": "Lionel Scaloni",
+          "photo": "https://url-para-foto.com/scaloni.png"
+        }
+      }
+    ]
+  }
+}
