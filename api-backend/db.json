@@ -2,74 +2,915 @@
   "competition": {
     "name": "FIFA World Cup 2026",
     "edition": "23",
-    "trophyImage": "https://url-para-imagem-do-trofeu.com/trofeu.png",
+    "trophyImage": "trofeu",
     "teams": [
       {
         "name": "Brasil",
+        "code": "BRA",
+        "iso2": "BR",
         "victories": 5,
         "description": "A seleção mais vitoriosa da história da Copa do Mundo, conhecida por seu futebol arte e jogadores lendários. Com 5 títulos mundiais, o Brasil é sinônimo de excelência no futebol.",
-        "badge": "https://url-para-escudo.com/brasil.png",
+        "badge": "brasil",
         "colors": [
           "#FFD700",
           "#009C3B"
         ],
+        "countryInfo": {
+          "population": "214,3 milhões",
+          "area": "8.515.767 km²",
+          "continent": "América do Sul",
+          "capital": "Brasília",
+          "language": "Português",
+          "currency": "Real (BRL)",
+          "gdp": "US$ 1,92 trilhão",
+          "curiosity": "Abriga a maior biodiversidade do mundo, sendo lar da maior parte da Floresta Amazônica e de cerca de 20% do total de espécies da Terra."
+        },
         "players": [
           {
             "name": "Vinicius Jr",
             "position": "Atacante",
             "number": 7,
-            "photo": "https://url-para-foto.com/viniciusjr.png"
+            "photo": "vinicius",
+            "isStar": true,
+            "about": "Ponta rápido e extremamente habilidoso, letal no um contra um e protagonista nos maiores palcos do futebol europeu.",
+            "statistics": {
+              "matches": 28,
+              "goals": 5,
+              "assists": 4
+            }
           },
           {
-            "name": "Rodrygo",
+            "name": "Raphinha",
             "position": "Atacante",
-            "number": 10,
-            "photo": "https://url-para-foto.com/rodrygo.png"
+            "number": 11,
+            "photo": "raphinha",
+            "about": "Ponta canhoto rápido e incisivo, destacando-se pela excelente bola parada, drible em velocidade e intensidade na marcação.",
+            "statistics": {
+              "matches": 22,
+              "goals": 6,
+              "assists": 5
+            }
           },
           {
             "name": "Casemiro",
             "position": "Meio-campo",
             "number": 5,
-            "photo": "https://url-para-foto.com/casemiro.png"
+            "photo": "casemiro",
+            "about": "Pilar defensivo no meio-campo, destacando-se pela força física, desarmes precisos e liderança em campo.",
+            "statistics": {
+              "matches": 75,
+              "goals": 7,
+              "assists": 3
+            }
           },
           {
             "name": "Alisson",
             "position": "Goleiro",
             "number": 1,
-            "photo": "https://url-para-foto.com/alisson.png"
+            "photo": "alisson",
+            "about": "Goleiro seguro e com excelente posicionamento, conhecido por defesas milagrosas e precisão na saída de bola com os pés.",
+            "statistics": {
+              "matches": 63,
+              "goals": 0,
+              "assists": 1
+            }
           },
           {
             "name": "Marquinhos",
             "position": "Zagueiro",
             "number": 4,
-            "photo": "https://url-para-foto.com/marquinhos.png"
+            "photo": "marquinhos",
+            "about": "Zagueiro rápido, com grande capacidade de antecipação e qualidade para iniciar a construção das jogadas.",
+            "statistics": {
+              "matches": 82,
+              "goals": 6,
+              "assists": 2
+            }
           }
         ],
         "coach": {
           "name": "Carlo Ancelotti",
-          "photo": "https://url-para-foto.com/ancelotti.png"
+          "photo": "ancelotti",
+          "role": "Treinador",
+          "about": "Um dos técnicos mais vitoriosos da história, conhecido por sua brilhante gestão de grupo e flexibilidade tática para extrair o melhor de cada atleta."
         }
       },
       {
         "name": "Argentina",
+        "code": "ARG",
+        "iso2": "AR",
         "victories": 3,
-        "description": "Atual campeã mundial, a seleção argentina é conhecida por sua raça, técnica e paixão inigualável pelo esporte.",
-        "badge": "https://url-para-escudo.com/argentina.png",
+        "description": "Atual campeã mundial, a seleção argentina é conhecida por sua raça, técnica apurada e paixão inigualável pelo esporte sul-americano.",
+        "badge": "argentina",
         "colors": [
           "#75AADB",
           "#FFFFFF"
         ],
+        "countryInfo": {
+          "population": "46,2 milhões",
+          "area": "2.780.400 km²",
+          "continent": "América do Sul",
+          "capital": "Buenos Aires",
+          "language": "Espanhol",
+          "currency": "Peso Argentino (ARS)",
+          "gdp": "US$ 632 bilhões",
+          "curiosity": "Possui a montanha mais alta do mundo fora do continente asiático, o Aconcágua, com 6.960 metros de altitude."
+        },
         "players": [
           {
             "name": "Lionel Messi",
             "position": "Atacante",
             "number": 10,
-            "photo": "https://url-para-foto.com/messi.png"
+            "photo": "messi",
+            "isStar": true,
+            "about": "Um dos maiores jogadores da história, gênio da criação e finalização, capitão e grande líder da seleção argentina.",
+            "statistics": {
+              "matches": 180,
+              "goals": 106,
+              "assists": 56
+            }
+          },
+          {
+            "name": "Emiliano Martínez",
+            "position": "Goleiro",
+            "number": 23,
+            "photo": "martinez",
+            "about": "Goleiro carismático e intimidador, especialista em defesas de pênaltis e peça fundamental nas conquistas recentes da equipe.",
+            "statistics": {
+              "matches": 38,
+              "goals": 0,
+              "assists": 0
+            }
+          },
+          {
+            "name": "Julián Álvarez",
+            "position": "Atacante",
+            "number": 9,
+            "photo": "alvarez",
+            "about": "Atacante móvel e incansável, conhecido pela forte pressão na saída de bola adversária e pelo faro de gol aguçado.",
+            "statistics": {
+              "matches": 30,
+              "goals": 8,
+              "assists": 4
+            }
+          },
+          {
+            "name": "Enzo Fernández",
+            "position": "Meio-campo",
+            "number": 24,
+            "photo": "fernandez",
+            "about": "Meio-campista completo com excelente visão de jogo, passes precisos e forte presença tanto na defesa quanto na armação.",
+            "statistics": {
+              "matches": 21,
+              "goals": 3,
+              "assists": 3
+            }
+          },
+          {
+            "name": "Rodrigo De Paul",
+            "position": "Meio-campo",
+            "number": 7,
+            "photo": "depaul",
+            "about": "O verdadeiro motor do meio-campo, famoso por sua entrega física inesgotável, proteção à defesa e conexão rápida com o ataque.",
+            "statistics": {
+              "matches": 62,
+              "goals": 2,
+              "assists": 8
+            }
           }
         ],
         "coach": {
           "name": "Lionel Scaloni",
-          "photo": "https://url-para-foto.com/scaloni.png"
+          "photo": "scaloni",
+          "role": "Treinador",
+          "about": "Responsável por renovar a seleção argentina e guiá-la aos títulos da Copa América e da Copa do Mundo, forjando um time altamente coeso, versátil e letal."
+        }
+      },
+      {
+        "name": "França",
+        "code": "FRA",
+        "iso2": "FR",
+        "victories": 2,
+        "description": "Duas vezes campeã mundial, a equipe francesa destaca-se pela sua explosão física, transições rápidas e forte base tática europeia.",
+        "badge": "franca",
+        "colors": [
+          "#002395",
+          "#ED2939"
+        ],
+        "countryInfo": {
+          "population": "68 milhões",
+          "area": "551.695 km²",
+          "continent": "Europa",
+          "capital": "Paris",
+          "language": "Francês",
+          "currency": "Euro (EUR)",
+          "gdp": "US$ 2,7 trilhões",
+          "curiosity": "É o país mais visitado do planeta, recebendo em média mais de 89 milhões de turistas internacionais todos os anos."
+        },
+        "players": [
+          {
+            "name": "Kylian Mbappé",
+            "position": "Atacante",
+            "number": 10,
+            "photo": "mbappe",
+            "isStar": true,
+            "about": "Um dos jogadores mais letais do mundo, destacando-se pela velocidade explosiva, dribles desconcertantes e finalização clínica.",
+            "statistics": {
+              "matches": 80,
+              "goals": 48,
+              "assists": 34
+            }
+          },
+          {
+            "name": "Micheal Olise",
+            "position": "Atacante",
+            "number": 11,
+            "photo": "olise",
+            "about": "Ponta criativo e muito habilidoso, com excelente visão de jogo, cruzamentos precisos e capacidade de quebrar linhas defensivas.",
+            "statistics": {
+              "matches": 8,
+              "goals": 2,
+              "assists": 3
+            }
+          },
+          {
+            "name": "Aurélien Tchouaméni",
+            "position": "Meio-campo",
+            "number": 8,
+            "photo": "tchouameni",
+            "about": "Volante de grande imposição física, excelente leitura tática, desarmes precisos e ótimo chute de longa distância.",
+            "statistics": {
+              "matches": 35,
+              "goals": 3,
+              "assists": 1
+            }
+          },
+          {
+            "name": "Theo Hernández",
+            "position": "Lateral",
+            "number": 19,
+            "photo": "hernandez",
+            "about": "Lateral-esquerdo ultraofensivo com incrível potência física, passadas largas e grande contribuição no terço final do campo.",
+            "statistics": {
+              "matches": 30,
+              "goals": 2,
+              "assists": 8
+            }
+          },
+          {
+            "name": "Mike Maignan",
+            "position": "Goleiro",
+            "number": 16,
+            "photo": "maignan",
+            "about": "Goleiro ágil, seguro e com grande poder de liderança, especialista em defesas à queima-roupa e ótimo com a bola nos pés.",
+            "statistics": {
+              "matches": 20,
+              "goals": 0,
+              "assists": 0
+            }
+          }
+        ],
+        "coach": {
+          "name": "Didier Deschamps",
+          "photo": "deschamps",
+          "role": "Treinador",
+          "about": "Campeão mundial como jogador e treinador, é conhecido por seu pragmatismo tático, foco em transições rápidas e excelente gestão de vestiário."
+        }
+      },
+      {
+        "name": "Alemanha",
+        "code": "GER",
+        "iso2": "DE",
+        "victories": 4,
+        "description": "Detentora de 4 Copas do Mundo, a seleção alemã é famosa pela sua disciplina tática impecável, engenharia de jogo e constância histórica.",
+        "badge": "alemanha",
+        "colors": [
+          "#000000",
+          "#FFCE00"
+        ],
+        "countryInfo": {
+          "population": "83,2 milhões",
+          "area": "357.022 km²",
+          "continent": "Europa",
+          "capital": "Berlim",
+          "language": "Alemão",
+          "currency": "Euro (EUR)",
+          "gdp": "US$ 4,0 trilhões",
+          "curiosity": "Aproximadamente um terço de todo o território alemão ainda é coberto por densas florestas e bosques centenários."
+        },
+        "players": [
+          {
+            "name": "Jamal Musiala",
+            "position": "Meio-campo",
+            "number": 10,
+            "photo": "musiala",
+            "isStar": true,
+            "about": "Jovem talento com drible curto excepcional, agilidade impressionante e grande capacidade de quebrar defesas em espaços reduzidos.",
+            "statistics": {
+              "matches": 32,
+              "goals": 5,
+              "assists": 6
+            }
+          },
+          {
+            "name": "Florian Wirtz",
+            "position": "Atacante",
+            "number": 17,
+            "photo": "wirtz",
+            "about": "Meia-atacante altamente inteligente, especialista em criar jogadas, com passes em profundidade letais e grande poder de finalização.",
+            "statistics": {
+              "matches": 22,
+              "goals": 4,
+              "assists": 7
+            }
+          },
+          {
+            "name": "Aleksandar Pavlović",
+            "position": "Meio-campo",
+            "number": 5,
+            "photo": "pavlovic",
+            "about": "Volante promissor com excelente distribuição de bola, maturidade tática surpreendente para a idade e precisão nos passes longos.",
+            "statistics": {
+              "matches": 5,
+              "goals": 0,
+              "assists": 1
+            }
+          },
+          {
+            "name": "Antonio Rüdiger",
+            "position": "Zagueiro",
+            "number": 2,
+            "photo": "rudiger",
+            "about": "Zagueiro agressivo e veloz, conhecido por sua força física implacável, personalidade forte e presença dominante no jogo aéreo.",
+            "statistics": {
+              "matches": 72,
+              "goals": 3,
+              "assists": 2
+            }
+          },
+          {
+            "name": "Manuel Neuer",
+            "position": "Goleiro",
+            "number": 1,
+            "photo": "neuer",
+            "about": "Lenda na posição que revolucionou o papel do goleiro-líbero com sua habilidade impecável com os pés, saídas corajosas e reflexos apurados.",
+            "statistics": {
+              "matches": 122,
+              "goals": 0,
+              "assists": 1
+            }
+          }
+        ],
+        "coach": {
+          "name": "Julian Nagelsmann",
+          "photo": "nagelsmann",
+          "role": "Treinador",
+          "about": "Técnico jovem e inovador, adepto de um futebol ofensivo e dinâmico, focado em forte pressão no adversário e grande flexibilidade tática."
+        }
+      },
+      {
+        "name": "Portugal",
+        "code": "POR",
+        "iso2": "PT",
+        "victories": 0,
+        "description": "Conhecida como a Seleção das Quinas, Portugal combina talento técnico individual impressionante com uma forte paixão nacional pelo esporte.",
+        "badge": "portugal",
+        "colors": [
+          "#E42518",
+          "#046A38"
+        ],
+        "countryInfo": {
+          "population": "10,3 milhões",
+          "area": "92.212 km²",
+          "continent": "Europa",
+          "capital": "Lisboa",
+          "language": "Português",
+          "currency": "Euro (EUR)",
+          "gdp": "US$ 252 bilhões",
+          "curiosity": "É um dos Estados-nação mais antigos da Europa, com suas fronteiras continentais mantendo-se praticamente inalteradas desde o ano de 1139."
+        },
+        "players": [
+          {
+            "name": "Cristiano Ronaldo",
+            "position": "Atacante",
+            "number": 7,
+            "photo": "ronaldo",
+            "isStar": true,
+            "about": "Um dos maiores artilheiros da história do futebol, destaca-se pela sua incrível capacidade de finalização, impulsão no jogo aéreo e mentalidade vencedora.",
+            "statistics": {
+              "matches": 205,
+              "goals": 128,
+              "assists": 46
+            }
+          },
+          {
+            "name": "Vitinha",
+            "position": "Meio-campo",
+            "number": 23,
+            "photo": "vitinha",
+            "about": "Meio-campista dinâmico e inteligente, com excelente controle de bola, grande resistência à pressão e precisão nos passes curtos e longos.",
+            "statistics": {
+              "matches": 20,
+              "goals": 0,
+              "assists": 2
+            }
+          },
+          {
+            "name": "Bernardo Silva",
+            "position": "Meio-campo",
+            "number": 10,
+            "photo": "silva",
+            "about": "Armador incansável e criativo, conhecido por seu domínio técnico em espaços curtos, visão de jogo e enorme capacidade de trabalho sem a bola.",
+            "statistics": {
+              "matches": 88,
+              "goals": 11,
+              "assists": 29
+            }
+          },
+          {
+            "name": "Nuno Mendes",
+            "position": "Lateral",
+            "number": 25,
+            "photo": "mendes",
+            "about": "Lateral-esquerdo de extrema velocidade e explosão, muito forte no apoio ofensivo e com grande capacidade de recuperação defensiva.",
+            "statistics": {
+              "matches": 24,
+              "goals": 0,
+              "assists": 3
+            }
+          },
+          {
+            "name": "Diogo Costa",
+            "position": "Goleiro",
+            "number": 22,
+            "photo": "costa",
+            "about": "Goleiro moderno com excelente agilidade, notável especialista em defesas de pênalti e muito frio e preciso na distribuição de bola com os pés.",
+            "statistics": {
+              "matches": 25,
+              "goals": 0,
+              "assists": 1
+            }
+          }
+        ],
+        "coach": {
+          "name": "Roberto Martínez",
+          "photo": "martinez",
+          "role": "Treinador",
+          "about": "Técnico experiente no cenário de seleções, adepto de um estilo de jogo propositivo, focado na posse de bola e na maximização do talento individual e coletivo."
+        }
+      },
+      {
+        "name": "Espanha",
+        "code": "ESP",
+        "iso2": "ES",
+        "victories": 1,
+        "description": "A Fúria conquistou o mundo com seu estilo de posse de bola (tiki-taka), revelando gerações de meio-campistas lendários e técnicos visionários.",
+        "badge": "espanha",
+        "colors": [
+          "#AA151B",
+          "#F1BF00"
+        ],
+        "countryInfo": {
+          "population": "47,7 milhões",
+          "area": "505.990 km²",
+          "continent": "Europa",
+          "capital": "Madri",
+          "language": "Espanhol",
+          "currency": "Euro (EUR)",
+          "gdp": "US$ 1,4 trilhão",
+          "curiosity": "É a maior produtora de azeite de oliva do mundo, sendo responsável por mais da metade de toda a produção global."
+        },
+        "players": [
+          {
+            "name": "Rodri",
+            "position": "Meio-campo",
+            "number": 16,
+            "photo": "rodri",
+            "about": "Considerado um dos melhores volantes do mundo, é o metrônomo do time. Destaca-se pela inteligência tática, controle de ritmo e gols decisivos.",
+            "statistics": {
+              "matches": 49,
+              "goals": 3,
+              "assists": 2
+            }
+          },
+          {
+            "name": "Pedri",
+            "position": "Meio-campo",
+            "number": 20,
+            "photo": "pedri",
+            "about": "Meio-campista de pura magia e criatividade. Possui uma visão de jogo extraordinária, agilidade em espaços curtos e passes que quebram qualquer defesa.",
+            "statistics": {
+              "matches": 20,
+              "goals": 0,
+              "assists": 1
+            }
+          },
+          {
+            "name": "Lamine Yamal",
+            "position": "Atacante",
+            "number": 19,
+            "photo": "yamal",
+            "isStar": true,
+            "about": "Jovem prodígio absoluto. Um ponta extremamente veloz, imprevisível no um contra um e com uma maturidade assustadora para a sua idade.",
+            "statistics": {
+              "matches": 8,
+              "goals": 2,
+              "assists": 4
+            }
+          },
+          {
+            "name": "Ferran Torres",
+            "position": "Atacante",
+            "number": 7,
+            "photo": "torres",
+            "about": "Atacante muito versátil e com excelente faro de gol. Destaca-se por suas infiltrações nas costas da defesa e ótima capacidade de finalização.",
+            "statistics": {
+              "matches": 41,
+              "goals": 19,
+              "assists": 4
+            }
+          },
+          {
+            "name": "Unai Simón",
+            "position": "Goleiro",
+            "number": 23,
+            "photo": "simon",
+            "about": "Goleiro de muita confiança, notável pelos seus reflexos rápidos debaixo das traves e pela extrema tranquilidade ao jogar com a bola nos pés.",
+            "statistics": {
+              "matches": 40,
+              "goals": 0,
+              "assists": 0
+            }
+          }
+        ],
+        "coach": {
+          "name": "Luis de la Fuente",
+          "photo": "delafuente",
+          "role": "Treinador",
+          "about": "Técnico profundo conhecedor das categorias de base da Espanha, focado em um estilo de jogo de posse de bola moderno, verticalidade e valorização dos jovens talentos."
+        }
+      },
+      {
+        "name": "Inglaterra",
+        "code": "ING",
+        "iso2": "IN",
+        "victories": 1,
+        "description": "Os inventores do futebol moderno, os Três Leões representam uma nação com uma liga poderosa, marcada por um jogo de intensidade e muita tradição.",
+        "badge": "inglaterra",
+        "colors": [
+          "#FFFFFF",
+          "#CF081F"
+        ],
+        "countryInfo": {
+          "population": "56,5 milhões",
+          "area": "130.279 km²",
+          "continent": "Europa",
+          "capital": "Londres",
+          "language": "Inglês",
+          "currency": "Libra Esterlina (GBP)",
+          "gdp": "US$ 3,1 trilhões (Reino Unido)",
+          "curiosity": "Foi o berço da Revolução Industrial no século XVIII, transformando radicalmente os processos de manufatura e a história da humanidade."
+        },
+        "players": [
+          {
+            "name": "Harry Kane",
+            "position": "Atacante",
+            "number": 9,
+            "photo": "kane",
+            "isStar": true,
+            "about": "Centroavante completo, capitão e maior artilheiro da história da seleção. Especialista em finalizações, cobranças de pênalti e em recuar para armar jogadas.",
+            "statistics": {
+              "matches": 91,
+              "goals": 63,
+              "assists": 19
+            }
+          },
+          {
+            "name": "Jude Bellingham",
+            "position": "Meio-campo",
+            "number": 10,
+            "photo": "bellingham",
+            "about": "Meio-campista geracional. Combina força física, técnica refinada, infiltração letal na área adversária e uma mentalidade vencedora impressionante.",
+            "statistics": {
+              "matches": 31,
+              "goals": 3,
+              "assists": 5
+            }
+          },
+          {
+            "name": "Bukayo Saka",
+            "position": "Atacante",
+            "number": 7,
+            "photo": "saka",
+            "about": "Ponta ágil e extremamente incisivo, destaca-se pelo drible curto, velocidade, inteligência tática e capacidade de definir partidas importantes.",
+            "statistics": {
+              "matches": 34,
+              "goals": 11,
+              "assists": 8
+            }
+          },
+          {
+            "name": "Declan Rice",
+            "position": "Meio-campo",
+            "number": 4,
+            "photo": "rice",
+            "about": "Volante dominante que protege a defesa com desarmes precisos, além de possuir grande capacidade de condução de bola e distribuição no meio-campo.",
+            "statistics": {
+              "matches": 52,
+              "goals": 3,
+              "assists": 0
+            }
+          },
+          {
+            "name": "Jordan Pickford",
+            "position": "Goleiro",
+            "number": 1,
+            "photo": "pickford",
+            "about": "Goleiro titular absoluto, conhecido por sua excelente reposição de bola longa, agilidade debaixo das traves e ótimas defesas em disputas de pênalti.",
+            "statistics": {
+              "matches": 62,
+              "goals": 0,
+              "assists": 1
+            }
+          }
+        ],
+        "coach": {
+          "name": "Gareth Southgate",
+          "photo": "southgate",
+          "role": "Treinador",
+          "about": "Responsável por resgatar o orgulho e a competitividade da seleção inglesa em grandes torneios, unindo diferentes gerações e criando um forte espírito de grupo."
+        }
+      },
+      {
+        "name": "Japão",
+        "code": "JPN",
+        "iso2": "JP",
+        "victories": 0,
+        "description": "Os Samurais Azuis representam a grande força do futebol asiático contemporâneo, destacando-se pela disciplina tática rigorosa, velocidade e constante evolução.",
+        "badge": "japao",
+        "colors": [
+          "#00008B",
+          "#FFFFFF"
+        ],
+        "countryInfo": {
+          "population": "125,1 milhões",
+          "area": "377.975 km²",
+          "continent": "Ásia",
+          "capital": "Tóquio",
+          "language": "Japonês",
+          "currency": "Iene (JPY)",
+          "gdp": "US$ 4,2 trilhões",
+          "curiosity": "O país é um arquipélago formado por mais de 6.800 ilhas e possui uma das maiores expectativas de vida do mundo."
+        },
+        "players": [
+          {
+            "name": "Ayase Ueda",
+            "position": "Atacante",
+            "number": 18,
+            "photo": "Ueda",
+            "about": "Centroavante de muita força física e excelente posicionamento. Destaca-se pelo faro de gol, movimentação inteligente na área e forte cabeceio.",
+            "statistics": {
+              "matches": 28,
+              "goals": 14,
+              "assists": 2
+            }
+          },
+          {
+            "name": "Takefusa Kubo",
+            "position": "Meio-campo",
+            "number": 8,
+            "photo": "kubo",
+            "isStar": true,
+            "about": "Meia-atacante extremamente habilidoso, dono de um drible curto envolvente, visão de jogo aguçada e grande capacidade de quebrar linhas defensivas.",
+            "statistics": {
+              "matches": 36,
+              "goals": 5,
+              "assists": 9
+            }
+          },
+          {
+            "name": "Keito Nakamura",
+            "position": "Meio-campo",
+            "number": 13,
+            "photo": "nakamura",
+            "about": "Jogador talentoso e muito agudo pelas pontas, conhecido por suas infiltrações rápidas, finalizações precisas de média distância e faro artilheiro.",
+            "statistics": {
+              "matches": 14,
+              "goals": 6,
+              "assists": 2
+            }
+          },
+          {
+            "name": "Takehiro Tomiyasu",
+            "position": "Zagueiro",
+            "number": 22,
+            "photo": "tomiyasu",
+            "about": "Defensor de altíssimo nível e muita versatilidade. Muito forte nos duelos individuais, possui excelente leitura tática e qualidade na saída de bola.",
+            "statistics": {
+              "matches": 42,
+              "goals": 1,
+              "assists": 3
+            }
+          },
+          {
+            "name": "Zion Suzuki",
+            "position": "Goleiro",
+            "number": 1,
+            "photo": "suzuki",
+            "about": "Jovem goleiro de grande imposição física, envergadura e elasticidade. Promissor, destaca-se pelos reflexos rápidos e reposição de bola qualificada.",
+            "statistics": {
+              "matches": 15,
+              "goals": 0,
+              "assists": 0
+            }
+          }
+        ],
+        "coach": {
+          "name": "Hajime Moriyasu",
+          "photo": "moriyasu",
+          "role": "Treinador",
+          "about": "Técnico estudioso e grande estrategista, famoso por sua capacidade de adaptar o time a diferentes adversários e por dominar transições rápidas e letais."
+        }
+      },
+      {
+        "name": "Senegal",
+        "code": "SEN",
+        "iso2": "SN",
+        "victories": 0,
+        "description": "Conhecidos como os Leões de Teranga, a seleção senegalesa é uma das maiores potências do futebol africano, destacando-se pela força física, velocidade e muito talento técnico.",
+        "badge": "senagal",
+        "colors": [
+          "#00853F",
+          "#FDEF42"
+        ],
+        "countryInfo": {
+          "population": "17,3 milhões",
+          "area": "196.712 km²",
+          "continent": "África",
+          "capital": "Dacar",
+          "language": "Francês",
+          "currency": "Franco CFA (XOF)",
+          "gdp": "US$ 27 bilhões",
+          "curiosity": "Abriga o famoso Lago Retba (Lago Rosa), cujas águas ganham uma coloração rosa brilhante devido a uma microalga que produz um pigmento para resistir à alta salinidade."
+        },
+        "players": [
+          {
+            "name": "Sadio Mané",
+            "position": "Atacante",
+            "number": 10,
+            "photo": "mane",
+            "isStar": true,
+            "about": "O grande ídolo e líder técnico da equipe. Um atacante letal, extremamente rápido, explosivo e com uma capacidade de finalização invejável.",
+            "statistics": {
+              "matches": 105,
+              "goals": 41,
+              "assists": 25
+            }
+          },
+          {
+            "name": "Kalidou Koulibaly",
+            "position": "Zagueiro",
+            "number": 3,
+            "photo": "koulibaly",
+            "about": "Zagueiro de imposição física absurda, conhecido como 'K2'. É o pilar da defesa, combinando força, excelente jogo aéreo e liderança em campo.",
+            "statistics": {
+              "matches": 82,
+              "goals": 1,
+              "assists": 2
+            }
+          },
+          {
+            "name": "Idrissa Gana Gueye",
+            "position": "Meio-campo",
+            "number": 5,
+            "photo": "gueye",
+            "about": "Volante incansável e verdadeiro motor do time. Especialista em desarmes, interceptações e em manter o equilíbrio defensivo no meio-campo.",
+            "statistics": {
+              "matches": 111,
+              "goals": 7,
+              "assists": 5
+            }
+          },
+          {
+            "name": "Ismaïla Sarr",
+            "position": "Atacante",
+            "number": 18,
+            "photo": "sarr",
+            "about": "Ponta de muita velocidade e habilidade no drible. É uma constante ameaça pelos lados do campo, quebrando defesas com suas arrancadas profundas.",
+            "statistics": {
+              "matches": 62,
+              "goals": 13,
+              "assists": 11
+            }
+          },
+          {
+            "name": "Édouard Mendy",
+            "position": "Goleiro",
+            "number": 16,
+            "photo": "mendy",
+            "about": "Goleiro de enorme envergadura, destacando-se pela segurança debaixo das traves, reflexos apurados e forte presença na saída de bolas aéreas.",
+            "statistics": {
+              "matches": 38,
+              "goals": 0,
+              "assists": 0
+            }
+          }
+        ],
+        "coach": {
+          "name": "Pape Thiaw",
+          "photo": "thiaw",
+          "role": "Treinador",
+          "about": "Ex-jogador da seleção que assumiu o comando técnico trazendo uma visão moderna, mantendo a solidez defensiva característica de Senegal e potencializando o ataque."
+        }
+      },
+      {
+        "name": "Costa do Marfim",
+        "code": "CIV",
+        "iso2": "CI",
+        "victories": 0,
+        "description": "Os Elefantes são uma equipe tradicional e vibrante da África Ocidental, conhecidos por revelar craques mundiais e por seu jogo ofensivo e envolvente.",
+        "badge": "marfim",
+        "colors": [
+          "#F77F00",
+          "#009E60"
+        ],
+        "countryInfo": {
+          "population": "28,1 milhões",
+          "area": "322.463 km²",
+          "continent": "África",
+          "capital": "Yamoussoukro",
+          "language": "Francês",
+          "currency": "Franco CFA (XOF)",
+          "gdp": "US$ 70 bilhões",
+          "curiosity": "É a maior produtora e exportadora de grãos de cacau do mundo, fornecendo mais de 30% da matéria-prima de todo o chocolate consumido globalmente."
+        },
+        "players": [
+          {
+            "name": "Bazoumana Touré",
+            "position": "Atacante",
+            "number": 24,
+            "photo": "toure",
+            "about": "Jovem atacante de grande potencial, destacando-se pela velocidade vertiginosa, habilidade no um contra um e imprevisibilidade no terço final do campo.",
+            "statistics": {
+              "matches": 4,
+              "goals": 1,
+              "assists": 1
+            }
+          },
+          {
+            "name": "Franck Kessié",
+            "position": "Meio-campo",
+            "number": 8,
+            "photo": "kessie",
+            "isStar": true,
+            "about": "Volante 'box-to-box' de extrema imposição física, liderança nata e grande capacidade de pisar na área adversária para marcar gols decisivos.",
+            "statistics": {
+              "matches": 78,
+              "goals": 11,
+              "assists": 7
+            }
+          },
+          {
+            "name": "Nicolas Pépé",
+            "position": "Atacante",
+            "number": 19,
+            "photo": "pepe",
+            "about": "Ponta muito habilidoso e criativo, dono de uma perna esquerda letal, excelente drible curto e grande facilidade para cortar para o meio e finalizar.",
+            "statistics": {
+              "matches": 44,
+              "goals": 10,
+              "assists": 4
+            }
+          },
+          {
+            "name": "Emmanuel Agbadou",
+            "position": "Zagueiro",
+            "number": 20,
+            "photo": "agbadou",
+            "about": "Zagueiro forte e de grande vigor físico, domina as disputas aéreas, possui ótima recuperação em velocidade e demonstra muita segurança nos desarmes.",
+            "statistics": {
+              "matches": 12,
+              "goals": 0,
+              "assists": 1
+            }
+          },
+          {
+            "name": "Yahia Fofana",
+            "position": "Goleiro",
+            "number": 1,
+            "photo": "fofana",
+            "about": "Goleiro ágil, herói da conquista continental recente. Transmite tranquilidade à defesa, tem grande capacidade de reação e frieza em momentos de pressão.",
+            "statistics": {
+              "matches": 18,
+              "goals": 0,
+              "assists": 0
+            }
+          }
+        ],
+        "coach": {
+          "name": "Emerse Faé",
+          "photo": "fae",
+          "about": "Técnico de perfil agregador que assumiu a seleção em um momento crítico e, através de grande inteligência emocional e organização tática, guiou o time ao título africano."
         }
       }
     ]
