@@ -1,17 +1,15 @@
 package com.albumdefigurinhas.data.model
 
-data class Player(
-    val name: String,
-    val position: String,
-    val number: Int,
-    val photo: String,
-    val isStar: Boolean? = false,
-    val about: String,
-    val statistics: Statistics
-)
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
 
-data class Statistics(
-    val matches: Int,
-    val goals: Int,
-    val assists: Int
+@Serializable
+data class Player(
+    @SerialName("name") val name: String,
+    @SerialName("position") val position: String,
+    @SerialName("number") val number: Int,
+    @SerialName("photo") val photo: String,
+    @SerialName("about") val about: String,
+    @SerialName("statistics") val statistics: Statistics,
+    @SerialName("isStar") val isStar: Boolean = false 
 )
