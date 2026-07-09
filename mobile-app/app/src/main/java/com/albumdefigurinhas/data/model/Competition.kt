@@ -1,8 +1,12 @@
 package com.albumdefigurinhas.data.model
 
+import kotlinx.serialization.SerialName
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class Competition(
-    val name: String,
-    val edition: String,
-    val trophyImage: String,
-    val teams: List<Team>
+    @SerialName("name") val name: String,
+    @SerialName("edition") val edition: String,
+    @SerialName("trophyImage") val trophyImage: String,
+    @SerialName("teams") val teams: List<Team>
 )
