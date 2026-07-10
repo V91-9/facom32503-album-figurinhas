@@ -1,7 +1,7 @@
 package com.albumdefigurinhas.di
 
 import com.albumdefigurinhas.data.remote.AlbumApiService
-import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
+import retrofit2.converter.kotlinx.serialization.asConverterFactory
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
