@@ -1,7 +1,7 @@
 package com.albumdefigurinhas.di
 
-import com.albumdefigurinhas.data.remote.ApiService
-import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
+import com.albumdefigurinhas.data.remote.AlbumApiService
+import retrofit2.converter.kotlinx.serialization.asConverterFactory
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -21,7 +21,7 @@ object NetworkModule {
     @Singleton
     fun provideOkHttpClient(): OkHttpClient {
         val logging = HttpLoggingInterceptor().apply {
-            level = HttpLoggingInterceptor.Level.BODY // Exibe o JSON no logcat
+            level = HttpLoggingInterceptor.Level.BODY
         }
         return OkHttpClient.Builder()
             .addInterceptor(logging)
@@ -31,12 +31,11 @@ object NetworkModule {
     @Provides
     @Singleton
     fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
-        // Configuração do serializador
         val json = Json { ignoreUnknownKeys = true }
         val contentType = "application/json".toMediaType()
 
         return Retrofit.Builder()
-            .baseUrl("http://10.0.2.2:3000/") // IP padrão para o emulador enxergar o localhost
+            .baseUrl("http://10.0.2.2:3000/")
             .client(okHttpClient)
             .addConverterFactory(json.asConverterFactory(contentType))
             .build()
@@ -44,7 +43,7 @@ object NetworkModule {
 
     @Provides
     @Singleton
-    fun provideApiService(retrofit: Retrofit): ApiService {
-        return retrofit.create(ApiService::class.java)
+    fun provideAlbumApiService(retrofit: Retrofit): AlbumApiService {
+        return retrofit.create(AlbumApiService::class.java)
     }
 }
