@@ -1,13 +1,12 @@
 plugins {
     alias(libs.plugins.android.application)
-
-    id("org.jetbrains.kotlin.android")
-    id("com.google.dagger.hilt.android")
-    id("com.google.devtools.ksp")
-    
     alias(libs.plugins.kotlin.compose)
+
+    id("com.google.devtools.ksp")
     id("org.jetbrains.kotlin.plugin.serialization")
 }
+
+apply(plugin = "com.google.dagger.hilt.android")
 
 android {
     namespace = "com.albumdefigurinhas"
