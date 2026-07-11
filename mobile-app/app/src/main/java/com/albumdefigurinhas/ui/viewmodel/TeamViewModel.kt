@@ -3,7 +3,7 @@ package com.albumdefigurinhas.ui.viewmodel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.albumdefigurinhas.data.model.Team
-import com.albumdefigurinhas.data.repository.TeamRepository
+import com.albumdefigurinhas.domain.repository.TeamRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
