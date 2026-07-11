@@ -35,7 +35,7 @@ class TeamViewModel @Inject constructor(
             
             try {
                 repository.refreshTeams()
-                repository.getTeams()
+                repository.getAllTeams()
                     .catch { exception ->
                         _uiState.value = TeamUiState.Error("Erro ao ler o banco de dados: ${exception.message}")
                     }
