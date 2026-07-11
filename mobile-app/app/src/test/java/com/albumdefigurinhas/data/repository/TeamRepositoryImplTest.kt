@@ -25,8 +25,6 @@ class TeamRepositoryImplTest {
 
     @Test
     fun `quando refreshTeams for chamado com sucesso, DEVE buscar da API e salvar no banco local`() = runTest {
-        // val fakeTeamList = listOf(Team(name = "Brasil", code = "BRA"))
-
         val fakeTeam = mockk<Team>(relaxed = true)
         val fakeTeamList = listOf(fakeTeam)
 
