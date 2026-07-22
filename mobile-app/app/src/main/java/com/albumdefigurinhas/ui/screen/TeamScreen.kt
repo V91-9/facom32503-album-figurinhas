@@ -42,7 +42,15 @@ fun TeamScreen(
         ) {
             when (val state = uiState) {
                 is TeamUiState.Loading -> {
-                    CircularProgressIndicator()
+                    Column(
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        CircularProgressIndicator()
+
+                        Spacer(modifier = Modifier.height(16.dp))
+
+                        Text("Carregando dados...")
+                    }
                 }
                 is TeamUiState.Error -> {
                     Text(
@@ -52,12 +60,20 @@ fun TeamScreen(
                     )
                 }
                 is TeamUiState.Success -> {
-                    TeamList(teams = state.teams)
+                    if (state.teams.isEmpty()) {
+                        Text(
+                            text = "Nenhum time encontrado.",
+                            modifier = Modifier.padding(16.dp)
+                        )
+                    } else {
+                        TeamList(teams = state.teams)
+                    }
+                }
                 }
             }
         }
     }
-}
+
 
 @Composable
 fun TeamList(teams: List<Team>) {

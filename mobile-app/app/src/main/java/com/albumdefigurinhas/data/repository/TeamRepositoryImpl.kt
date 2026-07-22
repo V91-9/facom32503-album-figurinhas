@@ -17,13 +17,9 @@ class TeamRepositoryImpl @Inject constructor(
     }
 
     override suspend fun refreshTeams() {
-        try {
-            val competitionData = apiService.getCompetitionData()
-            val remoteTeams = competitionData.teams 
-            
-            teamDao.insertAll(remoteTeams)
-        } catch (e: Exception) {
-            e.printStackTrace()
-        }
+        val competitionData = apiService.getCompetitionData()
+        val remoteTeams = competitionData.teams
+
+        teamDao.insertAll(remoteTeams)
     }
 }
